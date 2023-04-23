@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+a:not(.navbar-brand) {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: cursive;
+    transition: .3s all ease-in;
+    position: relative;
+}
+
+a:not(.navbar-brand):not(.regular)::before {
+    content: " ";
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    transition: .3s all ease-in;
+    display: block;
+    margin-top: 5px;
+
+}
+
+a:not(.navbar-brand):not(.regular):hover::before {
+    width: 80%;
+}
+
+.flex-container {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.flex-container>div {
+    margin-right: 10px;
+    text-align: right;
+    line-height: 50px;
+    font-size: 15px;
+    right: 0;
+}
+
+.myflex {
+    width: 70%;
+}
+
+#motto {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+#motto h1 {
+    /* background-image: url("../img/box-02.svg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 50px;
+    background-size: 47%;
+    text-align: center;
+}
+
+h3 {
+    color: lightgreen;
+}
+
+.pic {
+    height: 260px;
+    width: 350px;
+}
+
+footer {
+    height: 150px;
+    padding-top: 20px;
+    background-color: #9ac091;
+
+}
