@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Tags() {
+const Tags = (): JSX.Element => {
   return (
     <div className="nav tag-cloud">
       <Link to="/blog-post-2">Design</Link>
@@ -14,3 +14,5 @@ export default function Tags() {
     </div>
   );
 }
+
+export default Tags;
