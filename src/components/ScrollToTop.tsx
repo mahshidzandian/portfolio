@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FiArrowUp } from "react-icons/fi";
 
-export default function ScrollToTop() {
+const ScrollToTop = (): JSX.Element => {
   const [isVisible, setIsVisible] = useState(false);
 
   // Top: 0 takes us all the way back to the top of the page
@@ -46,3 +46,5 @@ export default function ScrollToTop() {
     </>
   );
 }
+
+export default ScrollToTop;
