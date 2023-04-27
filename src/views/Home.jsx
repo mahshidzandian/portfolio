@@ -3,6 +3,7 @@ import Header from "../components/header/Header";
 import Slider from "../components/slider/Slider";
 import About from "../components/about/About";
 import Resume from "../components/resume/Resume";
+import Portfolio from "../components/portfolio/Portfolio"
 import Blog from "../components/blog/Blog";
 import Contact from "../components/contact/Contact";
 import ContactInfo from "../components/contact/ContactInfo";
@@ -21,6 +22,7 @@ const Home = () => {
       <Slider />
       <About />
       <Resume />
+      <Portfolio />
 
       <section id="blog" className="section">
         <div className="container">
