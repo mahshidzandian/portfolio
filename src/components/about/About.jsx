@@ -40,17 +40,8 @@ const About = () => {
                 </div>
                 <div className="about-text">
                   <p>
-                    As an experienced Frontend developer,
-                    I have a strong command of modern front-end technology stack, 
-                    including JavaScript, TypeScript, ReactJS, Redux, D3 and testing frameworks 
-                    such as Jest. Using these tools, I develop product web UI applications with 
-                    dynamic and interactive features.
-                    My expertise in JavaScript, React, and JSX allows me to create 
-                    visually stunning and responsive designs that enhance the user experience. 
-                    By staying up-to-date with the latest web development trends and technologies, 
-                    I am able to deliver frontend solutions that are optimized for performance 
-                    and usability.
-                  </p>
+                    I am a Frontend Software Engineer building scalable, performant, and user-focused web applications with JavaScript, TypeScript, React, and Redux. I prioritize clean, maintainable, and well-tested code while delivering dynamic product features.
+                    I work on enterprise-scale applications, collaborating closely with product and design teams to create intuitive, accessible, and high-performing user experiences. I also lead and mentor engineers, helping build strong engineering practices and a collaborative team culture.</p>
                 </div>
                 <div className="info-list">
                   <div className="row">
@@ -62,7 +53,7 @@ const About = () => {
                         </li>
                         <li>
                           <label>Address: </label>
-                          <span>Vancouver</span>
+                          <span>New York</span>
                         </li>
                       </ul>
                     </div>
@@ -73,8 +64,8 @@ const About = () => {
                           <span>zandian.mahshid@gmail.com</span>
                         </li>
                         <li>
-                          <label>Freelance: </label>
-                          <span>Available</span>
+                          <label>Open to Full-Time Roles</label>
+                          {/* <span>Available</span> */}
                         </li>
                       </ul>
                     </div>
@@ -87,9 +78,8 @@ const About = () => {
           <div
             className="separated"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
-              })`,
+              backgroundImage: `url(${process.env.PUBLIC_URL + "img/border-dark.png"
+                })`,
             }}
           ></div>
 
@@ -100,9 +90,8 @@ const About = () => {
           <div
             className="separated"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
-              })`,
+              backgroundImage: `url(${process.env.PUBLIC_URL + "img/border-dark.png"
+                })`,
             }}
           ></div>
 
