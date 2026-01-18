@@ -2,17 +2,13 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const conctInfo = {
-  phone: "+1 604-724-7172",
   email: "zandian.mahshid@gmail.com",
 };
 
 const sliderContent = {
   name: "Mahshid Zandian",
-  description: `I am a passionate JavaScript developer with a 
-  deep understanding of modern front-end technologies and frameworks, 
-  skilled in creating dynamic and interactive web applications that enhance 
-  user experiences and optimize performance.`,
-  btnText: "Hire Me",
+  description: `I am a Frontend Software Engineer building scalable, high-performance, and user-centered web applications with React, TypeScript, and modern web technologies.`,
+  btnText: "Get in touch with me",
 };
 
 const Slider = () => {
@@ -22,20 +18,9 @@ const Slider = () => {
       <section id="home" className="home-banner">
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
-            <a href="tel:+1 604-724-7172">{conctInfo.phone}</a>
             <a href="mailto:zandian.mahshid@gmail.com">
               {conctInfo.email}
             </a>
-          </div>
-          <div className="hb-lang">
-            <ul className="nav">
-              <li className="active">
-                <a href="#">EN</a>
-              </li>
-              <li>
-                <a href="#">FR</a>
-              </li>
-            </ul>
           </div>
         </div>
         {/* End hp-top-fixed */}
@@ -61,9 +46,9 @@ const Slider = () => {
                   data-aos-delay="200"
                 >
                   <TextLoop>
-                  <p className="loop-text lead">Frontend Developer</p>
-                  <p className="loop-text lead"> Software Engineer</p>
-                  <p className="loop-text lead"> App Developer</p>
+                    <p className="loop-text lead">Frontend Developer</p>
+                    <p className="loop-text lead"> Software Engineer</p>
+                    <p className="loop-text lead"> App Developer</p>
                   </TextLoop>
                 </div>
 
@@ -84,7 +69,7 @@ const Slider = () => {
                   <a
                     className="px-btn btn-outline"
                     href="#contactus"
-                    
+
                   >
                     {sliderContent.btnText}
                   </a>
@@ -97,9 +82,8 @@ const Slider = () => {
         <div
           className="hb-me"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/home-banner.png"
-            })`,
+            backgroundImage: `url(${process.env.PUBLIC_URL + "img/slider/home-banner.png"
+              })`,
           }}
         ></div>
       </section>
