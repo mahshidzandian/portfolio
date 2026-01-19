@@ -47,7 +47,7 @@ const Skills = () => {
               <CountUp
                 start={focus ? skill.startCount : null}
                 end={skill.endCount}
-                duration={1}
+                duration={2}
                 redraw={true}
               >
                 {({ countUpRef }) => (
