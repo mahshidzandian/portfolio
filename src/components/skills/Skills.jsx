@@ -4,25 +4,31 @@ import VisibilitySensor from "react-visibility-sensor";
 
 const skillContent = [
   {
-    name: "JavaScript",
-    numberPercent: "92",
-    startCount: "0",
-    endCount: "92",
-  },
-  {
     name: "React JS",
-    numberPercent: "85",
+    numberPercent: "99",
     startCount: "0",
-    endCount: "85",
+    endCount: "99",
   },
   {
-    name: "APIs",
-    numberPercent: "90",
+    name: "TypeScript",
+    numberPercent: "98",
     startCount: "0",
-    endCount: "90",
+    endCount: "98",
   },
   {
-    name: "HTML5/CSS",
+    name: "APIs (REST / GraphQL)",
+    numberPercent: "98",
+    startCount: "0",
+    endCount: "98",
+  },
+  {
+    name: "Testing (Jest, React Testing Library)",
+    numberPercent: "99",
+    startCount: "0",
+    endCount: "99",
+  },
+  {
+    name: "Performance Optimization",
     numberPercent: "98",
     startCount: "0",
     endCount: "98",
@@ -41,7 +47,7 @@ const Skills = () => {
               <CountUp
                 start={focus ? skill.startCount : null}
                 end={skill.endCount}
-                duration={1}
+                duration={2}
                 redraw={true}
               >
                 {({ countUpRef }) => (

@@ -21,10 +21,10 @@ const About = () => {
                   </div>
                   <Social />
                 </div>
-                <div className="info">
+                {/* <div className="info">
                   <p>Software Developer</p>
                   <h3>Mahshid Zandian</h3>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -55,6 +55,10 @@ const About = () => {
                           <label>Address: </label>
                           <span>New York</span>
                         </li>
+                        <li>
+                          <label>Open to Full-Time Roles</label>
+                          {/* <span>Available</span> */}
+                        </li>
                       </ul>
                     </div>
                     <div className="col-sm-6">
@@ -64,8 +68,8 @@ const About = () => {
                           <span>zandian.mahshid@gmail.com</span>
                         </li>
                         <li>
-                          <label>Open to Full-Time Roles</label>
-                          {/* <span>Available</span> */}
+                          <label>Role: </label>
+                          <span>Software Engineer</span>
                         </li>
                       </ul>
                     </div>
@@ -87,7 +91,7 @@ const About = () => {
             <h3>What I do?</h3>
           </div>
           <Services />
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${process.env.PUBLIC_URL + "img/border-dark.png"
@@ -97,7 +101,7 @@ const About = () => {
 
           <div className="title">
             <h3>Testimonials.</h3>
-          </div>
+          </div> */}
           <Testimonials />
         </div>
       </section>
