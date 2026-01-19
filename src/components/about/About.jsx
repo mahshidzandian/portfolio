@@ -21,10 +21,10 @@ const About = () => {
                   </div>
                   <Social />
                 </div>
-                <div className="info">
+                {/* <div className="info">
                   <p>Software Developer</p>
                   <h3>Mahshid Zandian</h3>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -87,7 +87,7 @@ const About = () => {
             <h3>What I do?</h3>
           </div>
           <Services />
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${process.env.PUBLIC_URL + "img/border-dark.png"
@@ -97,7 +97,7 @@ const About = () => {
 
           <div className="title">
             <h3>Testimonials.</h3>
-          </div>
+          </div> */}
           <Testimonials />
         </div>
       </section>
