@@ -55,6 +55,10 @@ const About = () => {
                           <label>Address: </label>
                           <span>New York</span>
                         </li>
+                        <li>
+                          <label>Open to Full-Time Roles</label>
+                          {/* <span>Available</span> */}
+                        </li>
                       </ul>
                     </div>
                     <div className="col-sm-6">
@@ -64,8 +68,8 @@ const About = () => {
                           <span>zandian.mahshid@gmail.com</span>
                         </li>
                         <li>
-                          <label>Open to Full-Time Roles</label>
-                          {/* <span>Available</span> */}
+                          <label>Role: </label>
+                          <span>Software Engineer</span>
                         </li>
                       </ul>
                     </div>
