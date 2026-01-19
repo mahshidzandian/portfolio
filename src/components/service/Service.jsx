@@ -2,26 +2,21 @@ import React from "react";
 
 const ServiceContent = [
   {
-    icon: "icon-mobile",
-    title: "Web Design",
-    descriptions: `As a web designer, I create visually appealing and user-friendly 
-    interfaces by combining my design skills with knowledge of the latest web technologies.`,
+    icon: "icon-browser",
+    title: "Frontend Engineering",
+    descriptions: `I build scalable and high-performance frontend applications using React, TypeScript, and modern JavaScript frameworks. I focus on clean architecture, reusable components, and delivering reliable, user-centered interfaces.`,
     delayAnimation: "",
   },
   {
-    icon: "icon-desktop",
-    title: "Web Development",
-    descriptions: `As a web developer, I design and develop responsive websites and 
-    web applications using the latest technologies to create engaging and 
-    functional user experiences.`,
+    icon: "icon-bargraph",
+    title: "Enterprise UI & Performance",
+    descriptions: `I work on enterprise-scale applications, designing and shipping dynamic product features while prioritizing performance optimization, accessibility, reliability, and maintainability across large codebases serving millions`,
     delayAnimation: "200",
   },
   {
-    icon: "icon-target",
-    title: "Seo Marketing",
-    descriptions: `As an SEO marketer, I develop and implement strategies to increase 
-    website traffic, improve search engine rankings, and boost online visibility for 
-    businesses and organizations.`,
+    icon: "icon-chat",
+    title: "Collaboration & Leadership",
+    descriptions: `I collaborate closely with product, design, and engineering teams to translate complex requirements into intuitive, accessible user experiences. I mentor engineers and strengthen quality and collaboration teamwide today!!`,
     delayAnimation: "400",
   },
 ];
