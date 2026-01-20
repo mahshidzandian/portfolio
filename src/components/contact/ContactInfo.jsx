@@ -4,7 +4,7 @@ const ContactInfo = () => {
   return (
     <>
       <div className="contact-info">
-        <h4>What’s your story? Get in touch</h4>
+        <h4>Get in touch</h4>
         <p>
           Frontend Software Engineer currently at Intuit. Open to full-time opportunities with greater impact and growth.
         </p>
