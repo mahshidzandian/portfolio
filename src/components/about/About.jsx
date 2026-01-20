@@ -64,12 +64,12 @@ const About = () => {
                     <div className="col-sm-6">
                       <ul>
                         <li>
-                          <label>Email: </label>
-                          <span>zandian.mahshid@gmail.com</span>
+                          <label>Title: </label>
+                          <span>Software Engineer</span>
                         </li>
                         <li>
-                          <label>Role: </label>
-                          <span>Software Engineer</span>
+                          <label>Email: </label>
+                          <span>zandian.mahshid@gmail.com</span>
                         </li>
                       </ul>
                     </div>
