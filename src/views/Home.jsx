@@ -48,10 +48,10 @@ const Home = () => {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              <div className="contact-form">
+              {/* <div className="contact-form">
                 <h4>Say Something</h4>
                 <Contact />
-              </div>
+              </div> */}
             </div>
 
             <div
